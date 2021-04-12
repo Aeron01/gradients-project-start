@@ -4,10 +4,10 @@ import GradientsSelect from "./GradientsSelect"
 
 const GradientApp = () => {
   return (
-    <div>
+    <>
       <GradientsSelect />
       <GradientsList />
-    </div>
+    </>
   )
 }
 
