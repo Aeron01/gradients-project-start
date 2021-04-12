@@ -1,12 +1,18 @@
 import GradientsList from "./components/GradientsList"
+import GradientsHeader from "./components/GradientsHeader"
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <div>
-      <h1 className="text-center my-4">Alyra Gradients</h1>
+      <GradientsHeader>
+        <h1 className="display-1">Alyra Gradients</h1>
+        <p className="tagline">Ultime collection de plus beaux dégradés</p>
+      </GradientsHeader>
       <main className="container">
         <GradientsList />
       </main>
+      <Footer />
     </div>
   )
 }
