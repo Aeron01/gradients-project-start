@@ -54,15 +54,15 @@ const GradientsHeader = (props) => {
 
   const handleRightClick = () => {
     if (gradientIndex === (gradients.length - 1)) {
-      setGradientIndex(gradientIndex - (gradientIndex + 1))
+      setGradientIndex(gradientIndex - (gradientIndex - 24))
     } else {
       setGradientIndex(gradientIndex + 1)
     }
   }
 
   const handleLeftClick = () => {
-    if (gradientIndex === (gradients.length + 1)) {
-      setGradientIndex(gradientIndex + (gradientIndex - 1))
+    if (gradientIndex === (gradients.length - 25)) {
+      setGradientIndex(gradientIndex + (gradientIndex + 24))
     } else {
       setGradientIndex(gradientIndex - 1)
     }
