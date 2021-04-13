@@ -11,7 +11,6 @@ function App() {
       </GradientsHeader>
       <main className="container">
         <GradientsApp />
-
       </main>
       <Footer />
     </div>
